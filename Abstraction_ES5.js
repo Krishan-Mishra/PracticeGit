@@ -11,5 +11,9 @@ Vehicle.prototype.display2Info = function () {
   console.log('gear' + 'automatic');
 };
 
+Vehicle.prototype.display3Info = function(){
+  console.log('gear' + 'automatic');
+}
+
 const wagonr = new Vehicle('wagoner', 'lxi');
 wagonr.displayInfo();
