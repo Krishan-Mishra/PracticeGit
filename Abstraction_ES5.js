@@ -17,3 +17,4 @@ Vehicle.prototype.display3Info = function(){
 
 const wagonr = new Vehicle('wagoner', 'lxi');
 wagonr.displayInfo();
+
