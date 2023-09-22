@@ -7,5 +7,9 @@ Vehicle.prototype.displayInfo = function () {
   console.log('modelNo= ' + this.model);
 };
 
+Vehicle.prototype.display2Info = function () {
+  console.log('gear' + 'automatic');
+};
+
 const wagonr = new Vehicle('wagoner', 'lxi');
 wagonr.displayInfo();
